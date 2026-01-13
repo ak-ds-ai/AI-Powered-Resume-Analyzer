@@ -3,7 +3,7 @@
 import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { ResumeUploader } from "@/components/ResumeUploader";
+import  ResumeUploader  from "@/components/ResumeUploader";
 import { AnalysisReport } from "@/components/AnalysisReport";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
